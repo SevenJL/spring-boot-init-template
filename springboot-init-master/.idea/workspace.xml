@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40c71748-6306-461b-bb54-82e7fd925dd0" name="更改" comment="refactor: 优化代码结构和注释&#10;&#10;- 更新了多个文件的版权年份为 2023&#10;- 优化了部分代码的格式和顺序&#10;- 移除了未使用的变量和导入&#10;- 添加了必要的注释&#10;- 更新了 Maven 项目配置">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/swagger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/create_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/post_es_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/annotation/AuthCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/aop/AuthInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/aop/LogInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/common/BaseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/common/DeleteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/common/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/common/PageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/common/ResultUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/config/CosClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/config/JsonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/config/MyBatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/config/WxOpenConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/constant/CommonConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/constant/FileConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/constant/UserConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/controller/PostFavourController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/controller/PostThumbController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/controller/WxMpController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/esdao/PostEsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/exception/ThrowUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/generate/CodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/job/cycle/IncSyncPostToEs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/job/once/FullSyncPostToEs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/manager/CosManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/mapper/PostFavourMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/mapper/PostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/mapper/PostThumbMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/file/UploadFileRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/post/PostAddRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/post/PostEditRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/post/PostEsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/post/PostQueryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/post/PostUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/postfavour/PostFavourAddRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/postfavour/PostFavourQueryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/postthumb/PostThumbAddRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/user/UserAddRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/user/UserLoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/user/UserQueryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/user/UserRegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/user/UserUpdateMyRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/dto/user/UserUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/entity/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/entity/PostFavour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/entity/PostThumb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/enums/FileUploadBizEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/enums/UserRoleEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/vo/LoginUserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/vo/PostVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/model/vo/UserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/service/PostFavourService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/service/PostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/service/PostThumbService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/service/impl/PostFavourServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/service/impl/PostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/service/impl/PostThumbServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/utils/NetUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/utils/SpringContextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/utils/SqlUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/wxmp/WxMpConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/wxmp/WxMpMsgRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/wxmp/handler/EventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/wxmp/handler/MessageHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sevenjl/springbootinit/wxmp/handler/SubscribeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PostFavourMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/PostThumbMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/TemplateController.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/TemplateService.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/TemplateServiceImpl.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/model/TemplateAddRequest.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/model/TemplateEditRequest.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/model/TemplateQueryRequest.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/model/TemplateUpdateRequest.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/model/TemplateVO.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test_excel.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sevenjl/springbootinit/MainApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sevenjl/springbootinit/manager/CosManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sevenjl/springbootinit/mapper/PostFavourMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sevenjl/springbootinit/mapper/PostMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sevenjl/springbootinit/service/PostFavourServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sevenjl/springbootinit/service/PostThumbServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sevenjl/springbootinit/service/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sevenjl/springbootinit/utils/EasyExcelTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2pBQV13zbWFkj8KtX6JwrJjpI72" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Database detector": "数据库检测器",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.MainApplication (1).executor": "Run",
+    "git-widget-placeholder": "basic",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/spring-boot-template/springboot-init-template",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19885057",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.MainApplication (1)">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="springboot-init-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="springboot-init-master" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springboot-init-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sevenjl.springbootinit.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springboot-init-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yupi.springbootinit.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="40c71748-6306-461b-bb54-82e7fd925dd0" name="更改" comment="" />
+      <created>1732237008838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732237008838</updated>
+      <workItem from="1732237009845" duration="3861000" />
+    </task>
+    <task id="LOCAL-00001" summary="springboot项目模版初始化">
+      <option name="closed" value="true" />
+      <created>1732238238986</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732238238986</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="basic" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot项目模版初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot项目模版初始化" />
+  </component>
+</project>

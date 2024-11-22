@@ -1,21 +1,19 @@
 package com.sevenjl.springbootinit.model.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.TableName;
-import java.io.Serializable;
-import java.util.Date;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
+import java.io.Serializable;
+import java.util.Date;
+
 /**
- * 帖子
+ * 用户
+ *
  * @author # @author <a href="https://github.com/SevenJL">SevenJL</a>
  */
-@TableName(value = "post")
+@TableName(value = "user")
 @Data
-public class Post implements Serializable {
+public class User implements Serializable {
 
     /**
      * id
@@ -24,34 +22,44 @@ public class Post implements Serializable {
     private Long id;
 
     /**
-     * 标题
+     * 用户账号
      */
-    private String title;
+    private String userAccount;
 
     /**
-     * 内容
+     * 用户密码
      */
-    private String content;
+    private String userPassword;
 
     /**
-     * 标签列表 json
+     * 开放平台id
      */
-    private String tags;
+    private String unionId;
 
     /**
-     * 点赞数
+     * 公众号openId
      */
-    private Integer thumbNum;
+    private String mpOpenId;
 
     /**
-     * 收藏数
+     * 用户昵称
      */
-    private Integer favourNum;
+    private String userName;
 
     /**
-     * 创建用户 id
+     * 用户头像
      */
-    private Long userId;
+    private String userAvatar;
+
+    /**
+     * 用户简介
+     */
+    private String userProfile;
+
+    /**
+     * 用户角色：user/admin/ban
+     */
+    private String userRole;
 
     /**
      * 创建时间
